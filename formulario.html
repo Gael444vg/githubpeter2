@@ -1,0 +1,41 @@
+<html lang="es">
+<title>Registro</title>
+<head>
+</head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<body>
+    <section>
+<form method="POST" action="">
+    <h1>Formulario de Registro</h1>
+    <br>
+    <br>
+<label for="nombre">Indica tu nombre:</label>
+<input type="text" id="nombre" placeholder="Apellido(s), Nombre"><br>
+<label for="sexo">Indica tu sexo:</label>
+<input type="radio" value="sexo" value="H" name="genero" style="float: left;" /><label for="genero">Masculino</label>
+<input type="radio" value="sexo" value="M" name="genero" style="float: left;" /><label for="genero">Femenino</label>
+<br>
+<label for="usuario">Crea tu Usuario:</label>
+<input type="text" id="usuario" placeholder="ej. Lucho22"><br>
+<label for="correo">Ingresa tu Riot ID:</label>
+<input type="text" id="correo" placeholder="ej. noreply02@example.com"><br>
+<label for="contrasena">Crea una contraseña:</label>
+<input type="password" name="contrasena" placeholder="ej. Rodrigo23.-"><br>
+<label for="confirmacion">Confirma tu contraseña:</label>
+<input type="password" name="confirmacion" placeholder="(Debe ser igual)"><br>
+        <label for="opciones">Selecciona un rol:</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">Top</option>
+            <option value="opcion2">Jungle</option>
+            <option value="opcion3">Mid</option>
+            <option value="opcion4">AD Carry</option>
+            <option value="opcion5">Support</option>
+            <option value="opcion6" selected></option>
+</select>
+<br>
+<input type="checkbox" name="servicio"><label for="servicio">Acepto los términos de uso del servicio.</label>
+<input type="submit" name="subir">
+</form>
+</section>
+</body>
+</html>
